@@ -1,0 +1,17 @@
+/**
+ * Use Case 2: OOPS Banner Display
+ * Goal: Render "OOPS" using a 7-line grid of asterisks and spaces.
+ * This implementation uses sequential print statements as per requirements.
+ */
+public class OopsBanner {
+    public static void main(String[] args) {
+        // Rendering the "OOPS" banner line by line
+        System.out.println("  ***     ***    ****    **** ");
+        System.out.println(" *   *   *   *   *   *  *     ");
+        System.out.println(" *   *   *   *   *   *  *     ");
+        System.out.println(" *   *   *   *   ****    ***  ");
+        System.out.println(" *   *   *   *   *          * ");
+        System.out.println(" *   *   *   *   *          * ");
+        System.out.println("  ***     ***    *      ****  ");
+    }
+}
