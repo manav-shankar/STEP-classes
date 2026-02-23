@@ -1,0 +1,17 @@
+public class OopsBannerApp {
+    public static void main(String[] args) {
+        String gap = " ";
+
+        String row1 = String.join(gap, "*****", "*****", "*****", "*****");
+        String row2 = String.join(gap, "*   *", "*   *", "*   *", "*    ");
+        String row3 = String.join(gap, "*   *", "*   *", "*****", "*****");
+        String row4 = String.join(gap, "*   *", "*   *", "*    ", "    *");
+        String row5 = String.join(gap, "*****", "*****", "*    ", "*****");
+
+        System.out.println(row1);
+        System.out.println(row2);
+        System.out.println(row3);
+        System.out.println(row4);
+        System.out.println(row5);
+    }
+}
